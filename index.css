@@ -32,14 +32,13 @@ body{
 header{
     position: fixed;
     top: 0;
-    right: 0;
-    z-index: 1000;
+    z-index: 900;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 28px 11%;
+    padding: 20px 11%;
     border-bottom: 1px solid transparent;
     transition: all ease .50s;
 }
@@ -133,7 +132,7 @@ section{
 }
 
 header.sticky{
-    padding: 15px 11%;
+    padding: 10px 12%;
     background: #000;
     border-bottom: 1px solid #4e5055;
 }
