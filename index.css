@@ -27,7 +27,7 @@ body{
     color: var(--text-color);
     background: var(--bg-color);
     overflow-x: hidden;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 header{
