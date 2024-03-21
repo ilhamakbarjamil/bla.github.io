@@ -374,6 +374,9 @@ span{
     border-radius: 0.8rem;
 }
 
+/* Penyesuaian responsif untuk semua perangkat */
+
+/* Media query untuk perangkat dengan lebar maksimum 1600px */
 @media (max-width:1600px){
     header{
         padding: 14px 4%;
@@ -386,6 +389,7 @@ span{
     }
 }
 
+/* Media query untuk perangkat dengan lebar maksimum 1200px */
 @media (max-width:1200px){
     .home{
         min-height: 90vh;
@@ -393,13 +397,14 @@ span{
     .navlist a{
         margin: 0 20px;
     }
-    :roat{
+    :root{
         --h1-font: 5rem;
         --h2-font: 3.1rem;
         --p-font: 1rem;
     }
 }
 
+/* Media query untuk perangkat dengan lebar maksimum 1060px */
 @media (max-width:1060px){
     .about{
         grid-template-columns: 1fr;
@@ -424,6 +429,7 @@ span{
     }
 }
 
+/* Media query untuk perangkat dengan lebar maksimum 870px */
 @media (max-width:870px){
     #menu-icon{
         display: block;
@@ -450,6 +456,7 @@ span{
     }
 }
 
+/* Media query untuk perangkat dengan lebar maksimum 660px */
 @media (max-width:660px){
     .home{
         min-height: 80vh;
@@ -481,6 +488,7 @@ span{
     }
 }
 
+/* Media query untuk perangkat dengan lebar maksimum 360px */
 @media (max-width:360px){
     :root{
         --h1-font: 3.5rem;
@@ -498,12 +506,13 @@ span{
     }
 }
 
+/* Media query untuk perangkat dengan lebar maksimum 828px */
 @media screen and (max-width: 828px){
     .service-item{
         display: grid;
     }
     .left-contact i{
-        font: 25px;
+        font-size: 25px;
     }
     .left-contact h4{
         font-size: small;
@@ -516,4 +525,5 @@ span{
         display: flex;
         align-items: center;
     }
+}
 }
